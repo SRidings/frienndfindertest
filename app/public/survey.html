@@ -124,7 +124,7 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <br>
-                <!-- Materialize Modal Trigger/Submit Button -->
+       
                 <button type ="submit" data-target="modal1" class="waves-effect waves-light btn modal-trigger cyan lighten-1" id="submitBtn">Submit</button>
             </div>
         </div>
@@ -132,7 +132,7 @@
         <!-- Materialize Modal Structure -->
         <div id="modal1" class="modal">
           <div class="modal-content">
-            <h4>Meet Your New BFF</h4>
+            <h4>Here is your closest match!</h4>
             <h5 id="matchName"></h5>
             <img id="matchPic" src="" alt="No Image" width = 250px>
           </div>
@@ -161,9 +161,9 @@ $(document).ready(function() {
             });
             return isValid;
         }
-        //if everything is filled
+
         if (validateForm() == true) {
-            //creates a new friend from the values submitted
+       
             var newFriend = {
                 name: $('#name').val().trim(),
                 profilePic: $('#photo').val().trim(),
@@ -183,13 +183,13 @@ $(document).ready(function() {
             var currentURL = window.location.origin;
 
             $.post(currentURL + "/api/friends", newFriend, function(data) {
-                //Grab the result from the AJAX post so that the best match's name and photo are displayed.
+     
                 $("#matchName").text(data.name);
                 $("#matchPic").attr("src", data.profilePic);
             });
           
                 $('.modal').modal();
-            //clear form after submission
+ 
             $('#name').val("");
             $('#photo').val("");
             $('#q1').val("");
