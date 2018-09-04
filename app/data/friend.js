@@ -1,5 +1,4 @@
-//array that holds all the 'friends' that have taken the survey
-//initialize starting with 'dummy' data
+
 var friendList = [
  {
       name:'Steve',
@@ -162,7 +161,5 @@ var friendList = [
       ]
 }
 ]
-
-// Note how we export the array. This makes it accessible to other files using require.
 
 module.exports = friendList;
