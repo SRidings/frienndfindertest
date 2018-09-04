@@ -16,22 +16,7 @@ var friendList = [
          "1"
           ]
  },
- {
-  name:'Ivan',
-  profilePic:'https://i.imgur.com/wE25wRs.jpg',
-  scores:[
-     "5",
-     "1",
-     "4",
-     "4",
-     "5",
-     "1",
-     "2",
-     "5",
-     "4",
-     "1"
-      ]
-},
+
 {
   name:'Maxine',
   profilePic:'https://i.imgur.com/Xf0HLPo.jpg',
