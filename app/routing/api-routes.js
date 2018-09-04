@@ -2,11 +2,11 @@
 var friendList = require('../data/friend.js');
 
 module.exports = function(app){
-  app.get('/api/friends', function(req,res){
+  app.get('/api/friend', function(req,res){
     res.json(friendList);
   });
 
-  app.post('/api/friends', function(req,res){
+  app.post('/api/friend', function(req,res){
     var newFriendScores = req.body.scores;
     var scoresArray = [];
     var friendCount = 0;
