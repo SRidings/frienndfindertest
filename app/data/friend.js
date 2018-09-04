@@ -1,6 +1,6 @@
 
 var friendList = [
- {
+{
       name:'Steve',
       profilePic:'https://i.imgur.com/UJq3Uh2.jpg',
       scores:[
@@ -15,8 +15,8 @@ var friendList = [
          "4",
          "1"
           ]
-      },
-  {
+ },
+ {
   name:'Ivan',
   profilePic:'https://i.imgur.com/wE25wRs.jpg',
   scores:[
