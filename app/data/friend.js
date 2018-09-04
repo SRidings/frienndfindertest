@@ -3,7 +3,7 @@
 var friendList = [
  {
       "name":"Owen",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "photo":"https://i.imgur.com/UJq3Uh2.jpg",
       "scores":[
          "5",
          "1",
@@ -19,7 +19,7 @@ var friendList = [
       },
   {
   "name":"Pavan",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"https://i.imgur.com/wE25wRs.jpg",
   "scores":[
      "5",
      "1",
@@ -147,7 +147,7 @@ var friendList = [
 },
 {
   "name":"Ken",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo":"https://i.imgur.com/XLM7sB1.jpg",
   "scores":[
      "5",
      "1",
