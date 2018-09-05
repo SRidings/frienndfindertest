@@ -6,15 +6,6 @@
 	<!-- Link to the jQuery Library -->
   	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-  	<!-- Including Font Awesome Icons -->
-  	<script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
-
-
-	<!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-	<!-- Compiled and minified Materialize CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
 	<!-- Compiled and minified Materialize JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
@@ -174,8 +165,7 @@
 								<option value="5">5 (Strongly Agree)</option>
 							</select>
 						</div>
-
-						<!-- Survey Submit Button -->
+>
 						<div>
 							<button type="submit" name="action" id="submitButton">Submit Responses
 							</button>
@@ -186,7 +176,6 @@
 		</div>
 	</main>
 
-	<!-- Modal Dialog Displaying Closest Friend Match -->
 	<div id="modal1" class="modal">
 		<div class="modal-content">
 			<h4>Here is your closest match!</h4>
@@ -211,10 +200,8 @@
 				endingTop: '10%' // Ending top style attribute
 			});
 		});
-		// Activate submit button
 		$('#submitButton').on('click', function(event) {
 			event.preventDefault();
-			// Gather user inputs
 			var userInput = {
 				name: $('#userName').val().trim(),
 				photo: $('#userPhoto').val().trim(),
@@ -231,15 +218,10 @@
 					$('#question10').val().trim()
 				]
 			};
-			// console.log('userInput = ' + JSON.stringify(userInput));
-			// Add user inputs to friends list
 			$.post('/api/friends', userInput)
       		.done(function(data) {
-      			// console.log('response = ' + JSON.stringify(data));
-      			// Set the name and image values of friend match
       			$('#userMatch').html(data.matchName);
 		    	$("#userMatchImage").attr("src", data.matchImage);
-		    	// Pop open the modal dialog
       			$('#modal1').modal('open');
       		});
 		});
