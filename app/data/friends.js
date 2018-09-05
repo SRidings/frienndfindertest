@@ -2,7 +2,7 @@
 var friendList = [
 {
       name:'Steve',
-      profilePic:'https://i.imgur.com/UJq3Uh2.jpg',
+      photo:'https://i.imgur.com/UJq3Uh2.jpg',
       scores:[
          "5",
          "1",
@@ -18,7 +18,7 @@ var friendList = [
  },
  {
   name:'Ivan',
-  profilePic:'https://i.imgur.com/wE25wRs.jpg',
+  photo:'https://i.imgur.com/wE25wRs.jpg',
   scores:[
      "5",
      "1",
@@ -34,7 +34,7 @@ var friendList = [
 },
 {
   name:'Maxine',
-  profilePic:'https://i.imgur.com/Xf0HLPo.jpg',
+  photo:'https://i.imgur.com/Xf0HLPo.jpg',
   scores:[
      "9",
      "1",
@@ -50,7 +50,7 @@ var friendList = [
 },
 {
   name:'Kathleen',
-  profilePic:'https://i.imgur.com/moVaqu6.png',
+  photo:'https://i.imgur.com/moVaqu6.png',
   'scores':[
      "5",
      "1",
@@ -66,7 +66,7 @@ var friendList = [
 },
 {
   name:'Macy',
-  profilePic:'https://i.imgur.com/iP2G0k9.jpg',
+  photo:'https://i.imgur.com/iP2G0k9.jpg',
   scores:[
      "5",
      "1",
@@ -82,7 +82,7 @@ var friendList = [
 },
 {
   name:'Leslie',
-  profilePic:'https://i.imgur.com/UFxKPtD.jpg',
+  photo:'https://i.imgur.com/UFxKPtD.jpg',
   scores:[
      "5",
      "1",
@@ -98,7 +98,7 @@ var friendList = [
 },
 {
   name:'Natalie',
-  profilePic:'https://i.imgur.com/DIXzXv4.jpg',
+  photo:'https://i.imgur.com/DIXzXv4.jpg',
   scores:[
      "5",
      "1",
@@ -114,7 +114,7 @@ var friendList = [
 },
 {
   name:'Jarod',
-  profilePic:'https://i.imgur.com/MSL0hPO.jpg',
+  photo:'https://i.imgur.com/MSL0hPO.jpg',
   scores:[
      "5",
      "1",
@@ -130,7 +130,7 @@ var friendList = [
 },
 {
   name:'Kenneth',
-  profilePic:'https://i.imgur.com/4TEFbfz.jpg',
+  photo:'https://i.imgur.com/4TEFbfz.jpg',
   scores:[
      "5",
      "1",
@@ -146,7 +146,7 @@ var friendList = [
 },
 {
   name:'Gabriel',
-  profilePic:'https://i.imgur.com/XLM7sB1.jpg',
+  photo:'https://i.imgur.com/XLM7sB1.jpg',
   scores:[
      "5",
      "1",
